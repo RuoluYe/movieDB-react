@@ -1,0 +1,9 @@
+import axios from 'axios';
+const client = axios.create({
+  baseURL: 'https://api.themoviedb.org/3',
+  params: {
+    api_key: '2230781f66c231db978715c2fb4e9325'
+  },
+});
+
+export default client;
